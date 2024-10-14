@@ -1,4 +1,4 @@
-from main_figures import Circle
+from src.figures.main_figures import Circle
 
 
 def test_circle_has_attributes():

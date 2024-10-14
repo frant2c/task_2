@@ -1,4 +1,4 @@
-import point
+from src.figures import point
 
 
 def test_point():

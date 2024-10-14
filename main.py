@@ -1,5 +1,5 @@
-from engine2d import Engine2D
-from main_figures import Circle, Triangle, Rectangle
+from src.engine2d import Engine2D
+from src.figures.main_figures import Circle, Triangle, Rectangle
 
 if __name__ == '__main__':
     circ1 = Circle(2, 3, 5)

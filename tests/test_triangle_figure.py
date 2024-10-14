@@ -1,5 +1,5 @@
-from main_figures import Triangle
-from point import Point
+from src.figures.main_figures import Triangle
+from src.figures.point import Point
 
 
 def test_triangle_has_attributes():

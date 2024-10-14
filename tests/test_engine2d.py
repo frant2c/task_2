@@ -1,5 +1,5 @@
-from engine2d import Engine2D
-from main_figures import Circle, Triangle
+from src.engine2d import Engine2D
+from src.figures.main_figures import Circle, Triangle
 
 
 def test_engine2d_add_figure():

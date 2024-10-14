@@ -1,5 +1,5 @@
-from main_figures import Rectangle
-from point import Point
+from src.figures.main_figures import Rectangle
+from src.figures.point import Point
 
 
 def test_rectangle_has_attributes():

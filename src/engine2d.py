@@ -1,4 +1,4 @@
-from base_figure import BaseFigure
+from src.figures.base_figure import BaseFigure
 
 
 class Engine2D:

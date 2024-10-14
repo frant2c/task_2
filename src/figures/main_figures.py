@@ -1,12 +1,12 @@
-import point
-from base_figure import BaseFigure
+from src.figures.point import Point
+from src.figures.base_figure import BaseFigure
 
 
 class Circle(BaseFigure):
     def __init__(self, radius, x, y):
         super().__init__()
         self.r = radius
-        self.center = point.Point(x, y)
+        self.center = Point(x, y)
 
     def draw(self):
         print(f"Drawing Circle with radius: {self.r} and center in ({self.center.x}, {self.center.y}). "
@@ -16,9 +16,9 @@ class Circle(BaseFigure):
 class Triangle(BaseFigure):
     def __init__(self, x1, y1, x2, y2, x3, y3):
         super().__init__()
-        self.first_point = point.Point(x1, y1)
-        self.second_point = point.Point(x2, y2)
-        self.third_point = point.Point(x3, y3)
+        self.first_point = Point(x1, y1)
+        self.second_point = Point(x2, y2)
+        self.third_point = Point(x3, y3)
 
     def draw(self):
         print(f"Drawing Triangle with using three points in coordinates: "
@@ -31,7 +31,7 @@ class Triangle(BaseFigure):
 class Rectangle(BaseFigure):
     def __init__(self, x1, y1, length, width):
         super().__init__()
-        self.starting_point = point.Point(x1, y1)
+        self.starting_point = Point(x1, y1)
         self.len = length
         self.wid = width
 

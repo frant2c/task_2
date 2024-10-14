@@ -1,6 +1,6 @@
 import pytest
 
-import base_figure
+from src.figures import base_figure
 
 
 def test_draw():
